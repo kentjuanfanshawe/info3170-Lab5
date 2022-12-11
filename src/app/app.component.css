@@ -1,0 +1,26 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-around;
+  font-family: Tahoma, sans-serif;
+  padding: 20px;
+}
+
+.lightmode {
+  background-color: azure;
+  color: rgb(61, 61, 61);
+  font-family: "Roboto", sans-serif;
+}
+
+.darkmode {
+  background-color: rgb(61, 61, 61);
+  color: azure;
+}
+
+button {
+  border-radius: 5px;
+  padding: 15px 10px;
+  font-weight: bold;
+  border-width: 0;
+}
